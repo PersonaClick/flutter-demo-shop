@@ -1,0 +1,32 @@
+name: personaclick_demo_shop
+description: "A demo shop built from the PersonaClick Flutter SDK's UI kit."
+# An app, not a package: never published to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The PersonaClick SDK and its UI kit, both exported from package:personaclick_sdk.
+  personaclick_sdk: ^1.6.0
+
+  # The kit ships its icons as SVG assets and leaves rendering to the app.
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  config:
+    # The SDK's iOS plugin comes as a Swift package (it pulls the native PersonaClick iOS SDK
+    # the same way), so the app needs no CocoaPods.
+    enable-swift-package-manager: true
