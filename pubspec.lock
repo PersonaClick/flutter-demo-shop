@@ -244,10 +244,10 @@ packages:
     dependency: "direct main"
     description:
       name: personaclick_sdk
-      sha256: "46350eea41278bdb68069f5a776b93d97268032b5eca7f7860eb3e15e21aed2f"
+      sha256: "4368b39334d3fcdae225f5e28403d9ea1d112127211ec3ad1163a9fa59f26b18"
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.0"
+    version: "1.6.1"
   petitparser:
     dependency: transitive
     description:
